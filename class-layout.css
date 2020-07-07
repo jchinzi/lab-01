@@ -1,0 +1,75 @@
+div{
+  border: 1px solid black;
+  text-align: center;
+}
+
+div:first-child{
+  height: 75px;
+  width: 480px;
+  line-height: 75px;
+}
+
+div:nth-child(2){
+  height: 150px;
+  width: 480px;
+  line-height: 150px;
+}
+
+div:nth-child(3), div:nth-child(4){
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+}
+
+div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+  height: 250px;
+  width: 50%;
+  line-height: 250px;
+  float: left;
+}
+
+div:last-child{
+  height: 80px;
+  line-height: 80px;
+  clear: both;
+}
+
+@media only screen and (min-width:768px){
+  body{
+    width: 960px;
+  }
+
+  div:first-child{
+    height: 100px;
+    width: 960px;
+    line-height: 100px;
+  }
+
+  div:nth-child(2){
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
+    float: left;
+  }
+
+  div:nth-child(3), div:nth-child(4){
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    float: right;
+  }
+
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+    height: 250px;
+    width: 190px;
+    line-height: 200px;
+  }
+
+  div:last-child{
+    height: 150px;
+    width: 760px;
+    line-height: 150px;
+    float: right;
+    clear: right;
+  }
+}
