@@ -1,0 +1,164 @@
+body{
+  width: 480px;
+}
+
+div{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+
+#a{
+  height: 75px;
+  width: 480px;
+  line-height: 75px;
+  background-color: #8F6335;
+  clear: both;
+}
+
+#b{
+  height: 150px;
+  width: 480px;
+  line-height: 150px;
+  background-color: #27758F;
+  clear: both;
+}
+
+#c{
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+  background-color: #FFC991;
+  clear: both;
+}
+
+#d{
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+  background-color: #71C0DA;
+  clear: both;
+}
+
+#e{
+  height: 250px;
+  width: 240px;
+  clear: left;
+  line-height: 250px;
+  background-color: #DBA267;
+}
+
+#f{
+  height: 250px;
+  width: 240px;
+  clear: right;
+  line-height: 250px;
+  background-color: #218F8D;
+}
+
+#g{
+  height: 250px;
+  width: 240px;
+  clear: left;
+  line-height: 250px;
+  background-color: #90D6D5;
+}
+
+#h{
+  height: 250px;
+  width: 240px;
+  clear: right;
+  line-height: 250px;
+  background-color: #FCE6D9;
+}
+
+#i{
+  height: 80px;
+  width: 480px;
+  line-height: 80px;
+  background-color: #DB9167;
+  clear: both;
+}
+
+@media only screen and (min-width:768px){
+  body{
+    width: 960px;
+  }
+
+  div{
+    float: left;
+  }
+
+  #a{
+    height: 100px;
+    width: 960px;
+    line-height: 100px;
+    background-color: #5E9ADB;
+    clear: both;
+  }
+  
+  #b{
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
+    background-color: #8F4670;
+    clear: left;
+  }
+  
+  #c{
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    background-color: #DBB356;
+    clear: none;
+  }
+  
+  #d{
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    background-color: #2B5B8F;
+    clear: right;
+  }
+  
+  #e{
+    height: 250px;
+    width: 190px;
+    clear: none;
+    line-height: 250px;
+    background-color: #8F846B;
+  }
+  
+  #f{
+    height: 250px;
+    width: 190px;
+    clear: none;
+    line-height: 250px;
+    background-color: #DB7456;
+  }
+  
+  #g{
+    height: 250px;
+    width: 190px;
+    clear: none;
+    line-height: 250px;
+    background-color: #995EDB;
+  }
+  
+  #h{
+    height: 250px;
+    width: 190px;
+    clear: right;
+    line-height: 250px;
+    background-color: #3A7456;
+  }
+  
+  #i{
+    height: 150px;
+    width: 760px;
+    line-height: 150px;
+    background-color: #8F4670;
+    clear: right;
+  }
+}
